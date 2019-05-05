@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Enemies">
+      <UniqueIdentifier>{54f19cca-cfff-4d0b-a215-e69ce29e08da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BattleSystems">
+      <UniqueIdentifier>{8596e57c-0c68-45c5-9344-fb8320aaa2a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CoreSystems">
+      <UniqueIdentifier>{695e97b1-b33f-43a1-8a7b-9ca4112c2b69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PuzzleSystems">
+      <UniqueIdentifier>{87db5bc1-b228-4bad-ae3d-dd81c89082a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PuzzleSystems\TextBasedPuzzles">
+      <UniqueIdentifier>{85e3e2f3-5bc0-4ac3-8bd3-b94688dace6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\QuestSystems">
+      <UniqueIdentifier>{cbbe7c7d-1b8d-4bc8-86d9-f570b5f1004b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\QuestSystems\TextBasedQuests">
+      <UniqueIdentifier>{72437627-d877-4907-a3e7-7ae1cc2a33ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CoreSystems\GameMapSystem">
+      <UniqueIdentifier>{43de8f12-489b-4218-ae97-59c1aa1d5306}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CoreSystems\GameStartSystem">
+      <UniqueIdentifier>{7f492dd2-723b-42b0-80db-9dfef1bd32a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Systems">
+      <UniqueIdentifier>{77f4a9b5-357c-45f5-82e5-35d78d05bd68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Characters">
+      <UniqueIdentifier>{8e6d2ee9-60a7-49d1-96a7-a11bbf9213b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameFile">
+      <UniqueIdentifier>{466c1f41-900f-4692-a2ec-4374777def2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ObserverSystems">
+      <UniqueIdentifier>{025d7bcc-133d-46ba-bb48-483945f339cb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TextQuestSystem.cpp">
+      <Filter>Source Files\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="TextPuzzleSystem.cpp">
+      <Filter>Source Files\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalTextBattleSystem.cpp">
+      <Filter>Source Files\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="BossTextBattleSystem.cpp">
+      <Filter>Source Files\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>Source Files\GameFile</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMap.cpp">
+      <Filter>Source Files\GameFile</Filter>
+    </ClCompile>
+    <ClCompile Include="StartMenu.cpp">
+      <Filter>Source Files\GameFile</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EnemyEntity.h">
+      <Filter>Header Files\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="BossEnemy.h">
+      <Filter>Header Files\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleSystem.h">
+      <Filter>Header Files\BattleSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalTextBattleSystem.h">
+      <Filter>Header Files\BattleSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="BossTextBattleSystem.h">
+      <Filter>Header Files\BattleSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="PuzzleSystem.h">
+      <Filter>Header Files\PuzzleSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="TextPuzzleSystem.h">
+      <Filter>Header Files\PuzzleSystems\TextBasedPuzzles</Filter>
+    </ClInclude>
+    <ClInclude Include="TextPuzzleRoom.h">
+      <Filter>Header Files\PuzzleSystems\TextBasedPuzzles</Filter>
+    </ClInclude>
+    <ClInclude Include="TextPuzzleDecorator.h">
+      <Filter>Header Files\PuzzleSystems\TextBasedPuzzles</Filter>
+    </ClInclude>
+    <ClInclude Include="QuestSystem.h">
+      <Filter>Header Files\QuestSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="TextQuestDecorator.h">
+      <Filter>Header Files\QuestSystems\TextBasedQuests</Filter>
+    </ClInclude>
+    <ClInclude Include="TextQuestSystem.h">
+      <Filter>Header Files\QuestSystems\TextBasedQuests</Filter>
+    </ClInclude>
+    <ClInclude Include="TextQuestWithEnemies.h">
+      <Filter>Header Files\QuestSystems\TextBasedQuests</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMap.h">
+      <Filter>Header Files\CoreSystems\GameMapSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\CoreSystems\GameStartSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="StartMenu.h">
+      <Filter>Header Files\CoreSystems\GameStartSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractMenu.h">
+      <Filter>Header Files\CoreSystems\GameStartSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractPlayer.h">
+      <Filter>Header Files\CoreSystems\GameStartSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractGameMap.h">
+      <Filter>Header Files\CoreSystems\GameMapSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="BossEnemyEntity.h">
+      <Filter>Header Files\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractTextMap.h">
+      <Filter>Header Files\CoreSystems\GameMapSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="TextBattleSystem.h">
+      <Filter>Header Files\BattleSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>Header Files\ObserverSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="Subject.h">
+      <Filter>Header Files\ObserverSystems</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
